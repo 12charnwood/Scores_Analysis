@@ -111,12 +111,12 @@
 						<configuration>
 							<rules>
 								<rule>
-									<element>CLASS</element>
+									<element>BUNDLE</element>
 									<limits>
 										<limit>
 											<counter>LINE</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>80%</minimum>
+											<minimum>30%</minimum>
 										</limit>
 									</limits>
 								</rule>
