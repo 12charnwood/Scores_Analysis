@@ -35,11 +35,9 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<!-- sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions -->
-				<properties>
-					<sonar.projectKey>12charnwood_Scores_Analysis</sonar.projectKey>
-					<sonar.organization>12charnwood-scores</sonar.organization>
-					<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-				</properties>
+				<sonar.projectKey>12charnwood_Scores_Analysis</sonar.projectKey>
+				<sonar.organization>12charnwood-scores</sonar.organization>
+				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
 			<activation>
 				<activeByDefault>false</activeByDefault>
@@ -63,7 +61,7 @@
 			</build>
 		</profile>
 	</profiles>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
