@@ -28,7 +28,7 @@
 		<java.version>15</java.version>
 	</properties>
 
-	<profiles>
+  <profiles>
 		<profile>
 			<id>sonar</id>
 			<properties>
